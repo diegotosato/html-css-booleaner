@@ -1,9 +1,30 @@
-*{
+* {
     margin: 0;
 }
 
-:root{
+:root {
+    --header-bg-color: #4ea0ff;
     --author-color: #1fa9e5;
     --table-row-color: #b1e4f2;
     --subtitle-color: #808080;
+}
+
+.width_80{
+    width: 80%;
+}
+/* Header */
+
+header {
+    height: 200px;
+    background: #4ea0ff url(../images/pattern.png) left top;
+    background-size: 31%;
+}
+
+div.width_80{
+    margin: 0 auto;
+    height: 100%;
+}
+#logo {
+    height: 50%;
+    margin-top: 80px;
 }
