@@ -45,7 +45,7 @@ h1 {
     line-height: 5rem;
 }
 
-h2 {
+#main_title>h2 {
     font-size: 2.3rem;
     font-weight: 100;
 }
@@ -64,57 +64,87 @@ p.color_gray {
 
 /* #images */
 
-#images{
+#images {
     margin: 30px 0;
 }
 
-#tim_photo_1{
+#tim_photo_1 {
     width: 70%;
 }
 
-#tim_photo_2{
+#tim_photo_2 {
     width: 60%;
 }
 
-figcaption{
+figcaption {
     font-size: 1.5rem;
 }
 
 /* #content */
-#content{
+#content {
     font-size: 2rem;
 }
 
 /* #content p */
-#content p{
+#content p {
     margin-bottom: 50px;
 }
 
 /* #content ul */
-#content ul{
+#content ul {
     margin-bottom: 50px;
 }
 
 
 /* table */
-table{
+table {
     border-collapse: collapse;
     text-align: left;
     margin-bottom: 50px;
 }
-thead{
+
+thead {
     color: white;
     background-color: var(--author-color);
 }
 
-.table_column_width_25{
+.table_column_width_25 {
     width: 25%;
 }
 
-.table_column_width_50{
+.table_column_width_50 {
     width: 50%;
 }
 
-.bg_color_cyan{
+.bg_color_cyan {
     background-color: var(--table-row-color);
+}
+
+/* footer */
+footer>h2{
+    font-size: 2.3rem;
+    color: var(--subtitle-color);
+    margin-bottom: 20px;
+}
+
+.interest{
+    width: 450px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.monitor{
+    background-image: url(../images/monitor.jpg);
+    background-size: cover;
+}
+
+.graph{
+    background-image: url(../images/graph.jpg);
+    background-size: cover;
 }
