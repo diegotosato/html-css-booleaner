@@ -65,7 +65,7 @@ p.color_gray {
 /* #images */
 
 #images{
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 #tim_photo_1{
@@ -78,4 +78,43 @@ p.color_gray {
 
 figcaption{
     font-size: 1.5rem;
+}
+
+/* #content */
+#content{
+    font-size: 2rem;
+}
+
+/* #content p */
+#content p{
+    margin-bottom: 50px;
+}
+
+/* #content ul */
+#content ul{
+    margin-bottom: 50px;
+}
+
+
+/* table */
+table{
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 50px;
+}
+thead{
+    color: white;
+    background-color: var(--author-color);
+}
+
+.table_column_width_25{
+    width: 25%;
+}
+
+.table_column_width_50{
+    width: 50%;
+}
+
+.bg_color_cyan{
+    background-color: var(--table-row-color);
 }
