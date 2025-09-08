@@ -1,3 +1,9 @@
 *{
     margin: 0;
 }
+
+:root{
+    --author-color: #1fa9e5;
+    --table-row-color: #b1e4f2;
+    --subtitle-color: #808080;
+}
