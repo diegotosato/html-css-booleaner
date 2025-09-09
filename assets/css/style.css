@@ -92,7 +92,9 @@ figcaption {
 
 /* #content ul */
 #content ul {
-    margin: 0 0 50px -15px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+
 }
 
 
@@ -121,13 +123,13 @@ thead {
 }
 
 /* footer */
-footer>h2{
+footer>h2 {
     font-size: 2.3rem;
     color: var(--subtitle-color);
     margin-bottom: 20px;
 }
 
-.interest{
+.interest {
     width: 450px;
     height: 350px;
     background-color: black;
@@ -139,12 +141,12 @@ footer>h2{
     margin-bottom: 20px;
 }
 
-.monitor{
+.monitor {
     background-image: url(../images/monitor.jpg);
     background-size: cover;
 }
 
-.graph{
+.graph {
     background-image: url(../images/graph.jpg);
     background-size: cover;
 }
